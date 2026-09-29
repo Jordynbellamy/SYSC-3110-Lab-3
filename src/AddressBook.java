@@ -4,6 +4,7 @@ public class AddressBook {
     private List<BuddyInfo> buddies;
 
     public AddressBook() {
+
         this.buddies = new ArrayList<>();
     }
 
@@ -14,6 +15,7 @@ public class AddressBook {
     }
 
     public void removeBuddy(BuddyInfo buddy) {
+
         buddies.remove(buddy);
     }
 
@@ -23,6 +25,10 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
+    }
+
+    public BuddyInfo getBuddy(BuddyInfo buddy) {
+        return buddy;
     }
 
 }
