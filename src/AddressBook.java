@@ -15,6 +15,7 @@ public class AddressBook {
 
     public void removeBuddy(BuddyInfo buddy) {
         //buddies.remove(buddy);
+        //test
     }
 
     public static void main(String[] args) {
